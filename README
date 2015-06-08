@@ -1,3 +1,6 @@
+A Modified version of QFS MStress (https://github.com/quantcast/qfs/tree/master/benchmarks/mstress) to benchmark Apache Hdfs and Hops-FS (https://github.com/hopshadoop/hops)
+================
+
 #
 # $Id$
 #

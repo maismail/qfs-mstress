@@ -135,6 +135,9 @@ public class MStress_Client
         System.out.printf("Error: unrecognized test \'%s\'\n", testName_);
         System.exit(-1);
       }
+
+      dfsClient_.close();
+      
     } catch( IOException e) {
       e.printStackTrace();
       System.exit(-1);
